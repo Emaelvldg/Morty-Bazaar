@@ -1,0 +1,3430 @@
+@font-face {
+    font-family: "kedis";
+    src:
+      url("../Font/Action\ Man\ Bold.ttf")
+    }
+
+  @font-face{
+    font-family: "sidek";
+    src:
+      url("../Font/Next\ Sunday.ttf")
+  }
+  
+body{
+    background-color: rgb(43, 43, 43);
+    margin: 0;
+    overflow-x: hidden;
+    font-family: kedis;
+}
+
+.header{ 
+    color: black;
+}
+
+.footer{
+    
+    color: white;
+}
+
+.footerdiv nav ul{
+    list-style: none;
+}
+.footerdiv nav h2{
+    font-size: 30px;
+    max-width: 1000px;
+}
+
+.footerdiv nav p{
+    font-size: 25px;
+    max-width: 30ch;
+}
+
+.footerdiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 100px;
+    gap: 100px 100px;
+    max-width: 2250px;
+    width: 110%;
+    padding:40px;
+    margin: 0 auto;
+}
+
+.footerdiv .aide .audio img{
+    width: 40%;
+}
+
+.pied{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 500px;
+    width: 25%;
+    margin: 0 auto;
+    column-gap: 50px;
+    text-align: center;
+}
+
+.lg{
+    border-style: ridge;
+    font-size: 20px;
+    border-color: #03AECA;
+
+}
+
+.lg a{
+    text-decoration: none;
+    color: white;
+}
+
+.terre{
+    border-style: ridge;
+    font-size: 20px;
+    border-color: #03AECA;
+
+}
+
+.imgpied{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 500px;
+    width: 25%;
+    margin: 0 auto;
+
+}
+
+.footerhaut{
+    margin-bottom: 1px;
+    background: #1f800b;
+    background: linear-gradient(90deg, rgba(40,36,36,1) 0%, rgba(58,88,16,1) 40%, rgba(151,234,43,1) 100%);
+
+}
+
+.footerbas{
+    background: #1f800b;
+    background: linear-gradient(90deg, rgba(40,36,36,1) 0%, rgba(58,88,16,1) 40%, rgba(151,234,43,1) 100%);
+    
+    
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 75px;
+    margin-right: -75px;
+}
+.search-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    outline: none; 
+}
+.search-button {
+    background-color: #03AECA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.search-button:hover {
+    background-color: #03AECA;
+}
+
+header .search-button img{
+    width: 30px;
+}
+
+header .logo{
+    width: 440px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+.headerhaut{
+    background: #1f800b;
+    background: linear-gradient(90deg, rgba(40,36,36,1) 0%, rgba(58,88,16,1) 40%, rgba(151,234,43,1) 100%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 100px;
+    gap: 100px 50px;
+    width: 110%;
+    padding:5px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.headerbas ul{
+    list-style: none;
+    background: #00869C;
+    display: flex;
+    padding-left: 100px;
+    margin: 0 auto;
+}
+
+.headerbas li{
+    font-size: 20px;
+    margin-right: 10dvh;
+    
+}
+
+.headerbas a{
+    text-decoration: none;
+    color: white;
+}
+
+.headerbas a:hover{
+    text-decoration: none;
+    color: rgb(151,234,43,1);
+}
+
+.headerhaut h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerhaut h2 a:hover{
+    text-decoration: none;
+    color: #00869C;
+}
+
+.headerhaut h2 img{
+    width: 50px;
+}
+
+.headerhaut h2{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.headerhaut .panier{
+    width: 75px;
+}
+
+.headerhaut .co{
+    padding-left: 200px;
+}
+
+main .titre{
+    width: 100%;
+    margin-bottom: -5px;
+    background-color: #00869C;
+    padding-bottom: 30px;
+}
+
+main .Acceuil{
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    grid-gap: 100px;
+    gap: 100px 100px;
+    max-width: 2250px;
+    width: 90%;
+    padding: 100px; 
+    margin-left: 5px;
+} 
+
+.box1{
+    background-color: rgba(254, 253, 105, 1);
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-left: 30px;
+    width: 792px;
+    height: 308px;
+}
+
+.box2{
+    background-color: rgba(0, 134, 156, 1);
+    grid-row: 1 / 3;
+    grid-column: 2 / 2;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-left: 30px;
+    width: 729px;
+    height: 1015px;
+    
+}
+
+.box3{
+    background-color: rgba(90, 0, 0, 1);
+    grid-row: 2 / 2;
+    grid-column: 1 / 1;
+    border-radius: 10px;
+    font-size: 35px;
+    padding-left: 30px;
+    width: 792px;
+    height: 606px;
+    color: white;
+}
+
+main .box1 a{
+    font-size: 30px;
+    background: rgba(40, 40, 39, 1);
+    border-radius: 64px;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 50px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    margin-bottom: 50px;
+    margin-top: -10px;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+main .box1 a:hover{
+    text-decoration: none;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -20px;
+    margin-left: 490px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+main .box2 img{
+    margin: 17px;
+    width: 665px;
+    height: 505px;
+    border-radius: 10px;
+}
+
+main .box2 a{
+    text-decoration: none;
+    color: black;
+}
+
+main .box3 img{
+    width: 822px;
+    margin-left: -30px;
+    margin-top: -35px;
+}
+
+main .box3 a{
+    text-decoration: none;
+    color: white;
+}
+
+main .haut{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    background: rgba(0, 134, 156, 1);
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+main .haut:hover{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 790px;
+    margin-right: 790px;
+    margin-bottom: 90px;
+}
+
+main .box1 h3{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+main .box2 h3{
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+main .box3 h3{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+ 
+main .box1 p{
+    margin-top: -55px;
+    margin-right: 100px;
+}
+
+main .box2 p{
+    margin-top: -30px;
+    margin-right: 100px;
+}
+
+main .box3 p{
+    margin-top: -35px;
+    margin-right: 100px;
+}
+
+main .rickroll{
+    width: 100%;
+}
+
+.connection{
+    background-color: white;
+}
+
+main .logoco{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    margin-top: -75px;
+    margin-left: 400px;
+}
+
+main .search-connection{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+    border: rgba(99, 202, 62, 1);
+    grid-gap: 200px;
+    gap: 50px;
+    padding: 100px;
+    padding-bottom: 30px;
+    margin: 50px auto;
+    border-color: rgba(111, 206, 91, 1);
+    border-style: ridge;
+    margin-left: 525px;
+    margin-right: 525px;
+    margin-top: 200px;
+    
+    
+}
+
+.search-connection h2{
+    grid-row: 1 / 1;
+    grid-column: 1 / 1;
+    color: rgba(3, 174, 202, 1);
+    display: flex;
+    margin: 0 auto;
+    font-size: 400%;
+    margin-top: -25px;
+    
+}
+
+
+.search-connection button{
+    font-family: kedis;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    margin-left: 200px;
+    margin-right: 200px;
+    background-color: rgba(129, 216, 253, 1);
+    border-radius: 66px;
+    border-style: none;
+    font-size: 200%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.search-connection button:hover{
+    padding: 10px;
+    margin-top: -10px;
+    margin-right: 190px;
+    margin-left: 190px;
+    margin-bottom: 42px;
+
+}
+
+.rick-co{
+    margin-bottom: -328px;
+    margin-top: -500px;
+    margin-left: -200px;
+    width: 35%;
+}
+
+.morty-co{
+    margin-bottom: -305px;
+    margin-top: -500px;
+    margin-left: 1600px;
+    width: 25%;
+}
+
+footer .sepa-co{
+    color:rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.25);
+    height: 3px;
+    margin-top: 160px;
+
+    
+}
+
+footer .credit-co{
+    color: rgba(156, 156, 156, 1);
+    text-align: center;
+    margin-top: 75px;
+    font-size: 150%;
+    
+}
+
+main .panier{
+    background-color: rgb(245, 245, 245);
+    display: grid;
+    grid-template-rows: none;
+    grid-template-columns: none;
+    margin-top: 40px;
+    margin-left: 80px;
+    margin-right: 500px;
+    margin-bottom: 45px;
+    width: 1376px;
+    height: 482px;
+}
+
+main .panier img{
+    width: 45%;
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+main .panier h2{
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+    font-size: 35px;
+    margin-top: 70px;
+    margin-right: 50px;
+}
+
+main .panier p {
+
+    margin-top: -150px;
+
+}
+
+main .panier p a{
+    grid-row: 2 / 2;
+    grid-column: 2 / 2;
+    font-size: 24px;
+    color:rgba(82, 120, 74, 1);
+    text-decoration: none;
+}
+
+main .panier .retour{
+    grid-row: 3 / 3;
+    grid-column: 2 / 2;
+    list-style: none;
+    margin-top: -175px;
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(57, 142, 156, 1);
+    padding: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 21px;
+    margin-left: 200px;
+    width: 250px;
+    height: 40px;
+}
+
+main .panier .retour:hover{
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-left: 190px;
+    margin-top: -185px;
+}
+
+.main-panier .block-panier {
+    background-color: rgb(217, 217, 217);
+    color: rgb(217, 217, 217);
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 500px;
+    margin-bottom: 400px;
+    height: 136px;
+    width: 1376px;
+}
+
+.main-page{
+    display: grid;
+    grid-template-columns: none;
+    grid-template-rows: none;
+}
+
+.gift-gauche{
+    grid-column: 1 / 1;
+    grid-row: 1 / 5;
+    background-color: white;
+    width: 360px;
+    height: 2275px;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 127px;
+}
+
+.h3-gift{
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: -45px;
+    margin-left: 315px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.gift1{
+    background-color: rgba(217, 217, 217, 1);
+    width: 320px;
+    height: 490px;
+    margin-left: 18px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.gift1 p{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.gift1 img{
+    width: 300px;
+    height: 295px;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gift2{
+    background-color: rgba(217, 217, 217, 1);
+    width: 320px;
+    height: 400px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.gift2 p{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.gift2 img{
+    width: 300px;
+    height: 248px;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gift3{
+    background-color: rgba(217, 217, 217, 1);
+    width: 320px;
+    height: 560px;
+    margin-left: 18px;
+    margin-bottom: 20px;
+}
+
+.gift3 p{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 30px;
+
+}
+
+.gift3 p img{
+    width: 15%;
+    height: 15%;
+    margin-left: 200px;
+    margin-top: -100px;
+    margin-bottom: 20px
+}
+
+.gift3 img{
+    width: 300px;
+    height: 280px;
+    margin-top: -60px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.gift4{
+    background-color: rgba(217, 217, 217, 1);
+    width: 320px;
+    height: 530px;
+    margin-left: 18px;
+    margin-bottom: 10px;
+}
+
+.gift4 p{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-size: 30px;
+}
+
+.gift4 img{
+    width: 300px;
+    height: 295px;
+    margin-top: -20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.pub {
+    background-color: rgba(217, 217, 217, 1);
+    width: 320px;
+    height: 80px;
+    margin-left: 18px;
+    justify-content: center;
+    margin-top: -35px;
+}
+.pub p{
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 10px;
+}
+
+.button-gift{
+    font-family: kedis;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    border-style: none;
+    width: 35px;
+    height: 35px;
+    margin-bottom: -45px;
+    margin-left: 315px;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.vente-droite{
+    grid-column: 2 / 3;
+    grid-row: 1 / 5;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 90px;
+    margin-bottom: 80px;
+    font-family: sidek;
+}
+
+.vente1-p1{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente1-p1 .affiche{
+    background-color: white;
+    width: 290px;
+    height: 290px;
+}
+
+.vente1-p1 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente1-p1 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente1-p1 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente1-p1 .P2{
+    font-size: 24px;
+}
+
+.vente1-p1 h3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: -54px;
+}
+
+.vente1-p1 .credit-vente{
+    width: 5%;
+    margin-left: 105px;
+}
+
+.vente1-p1 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente1-p1 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente2-p1{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente2-p1 .affiche{
+    background-color: white;
+    width: 270px;
+    height: 250px;
+    padding: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.vente2-p1 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente2-p1 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente2-p1 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente2-p1 .P2{
+    font-size: 24px;
+}
+
+.vente2-p1 h3{
+    font-size: 30px;
+    margin-top: 90px;
+    margin-bottom: -54px;
+}
+
+.vente2-p1 .credit-vente{
+    width: 5%;
+    margin-left: 85px;
+}
+
+.vente2-p1 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente2-p1 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente3-p1{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente3-p1 .affiche{
+    background-color: white;
+    width: 230px;
+    height: 280px;
+    padding-left: 25px;
+    padding-right: 35px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.vente3-p1 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente3-p1 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente3-p1 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente3-p1 .P2{
+    font-size: 24px;
+}
+
+.vente3-p1 h3{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: -54px;
+}
+
+.vente3-p1 .credit-vente{
+    width: 5%;
+    margin-left: 45px;
+}
+
+.vente3-p1 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente3-p1 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente4-p1{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente4-p1 .affiche{
+    background-color: white;
+    width: 280px;
+    height: 290px;
+    padding-left: 10px;
+    
+}
+
+.vente4-p1 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente4-p1 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente4-p1 .P1{
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.vente4-p1 .P2{
+    font-size: 23px;
+}
+
+.vente4-p1 h3{
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: -57px;
+}
+
+.vente4-p1 .credit-vente{
+    width: 5%;
+    margin-left: 104px;
+}
+
+.vente4-p1 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente4-p1 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente5-p1{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente5-p1 .affiche{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.vente5-p1 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente5-p1 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente5-p1 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente5-p1 .P2{
+    font-size: 24px;
+}
+
+.vente5-p1 h3{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: -54px;
+}
+
+.vente5-p1 .credit-vente{
+    width: 5%;
+    margin-left: 115px;
+}
+
+.vente5-p1 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente5-p1 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.selection-page{
+    background: rgba(0, 134, 156, 1);
+    display: flex;
+    justify-content: center;
+    max-width: 520px;
+    max-height: 60px;
+    border-radius: 5px;
+    margin-left: 44%;
+    margin-top: -400px;
+}
+
+.selection-page .precedent{
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.selection-page .precedent:hover{
+    color: rgba(151, 234, 43, 1);
+}
+
+.selection-page .b1{
+    font-family: sidek;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+
+.selection-page .a1{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.selection-page .a2{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.selection-page .a3{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.selection-page .a13{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+
+.selection-page .b2{
+    font-family: sidek;
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+
+.selection-page .suivant{
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.selection-page .suivant:hover{
+    color: rgba(151, 234, 43, 1);
+}
+
+.selection-page .a1:hover{
+    background-image: url(../media/portail.png);
+    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 4px;
+    margin-right: -17px;
+    
+}
+
+.selection-page .a2:hover{
+    background-image: url(../media/portail.png);
+    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 11px;
+    margin-right: -17px;
+    
+}
+
+.selection-page .a13:hover{
+    background-image: url(../media/portail.png);
+    font-size: 35px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 4px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: 19px;
+    margin-right: -17px;
+    
+}
+
+main .haut-page {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background: rgba(0, 134, 156, 1);
+    border-radius: 15px;
+    margin-left: 50%;
+    margin-right: 35%;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+main .haut-page:hover{
+    padding: 20px;
+    margin-top: 90px;
+    margin-left: 49%;
+    margin-right: 34%;
+    margin-bottom: 90px;
+}
+
+.vente1-p2{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente1-p2 .affiche{
+    background-color: white;
+    width: 290px;
+    height: 290px;
+}
+
+.vente1-p2 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente1-p2 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente1-p2 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente1-p2 .P2{
+    font-size: 24px;
+}
+
+.vente1-p2 h3{
+    font-size: 30px;
+    margin-top: 35px;
+    margin-bottom: -54px;
+}
+
+.vente1-p2 .credit-vente{
+    width: 5%;
+    margin-left: 65px;
+}
+
+.vente1-p2 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente1-p2 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente2-p2{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente2-p2 .affiche{
+    background-color: white;
+    width: 290px;
+    min-height: 290px;
+    max-height: 290px;
+}
+
+.vente2-p2 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente2-p2 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente2-p2 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente2-p2 .P2{
+    font-size: 24px;
+}
+
+.vente2-p2 h3{
+    font-size: 30px;
+    margin-top: 40px;
+    margin-bottom: -54px;
+}
+
+.vente2-p2 .credit-vente{
+    width: 5%;
+    margin-left: 80px;
+}
+
+.vente2-p2 h4{
+    font-size: 25px;
+    margin-top: -55px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente2-p2 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente3-p2{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente3-p2 .affiche{
+    background-color: white;
+    width: 240px;
+    height: 280px;
+    padding-left: 20px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.vente3-p2 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente3-p2 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente3-p2 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente3-p2 .P2{
+    font-size: 24px;
+}
+
+.vente3-p2 h3{
+    font-size: 30px;
+    margin-top: -10px;
+    margin-bottom: -54px;
+}
+
+.vente3-p2 .credit-vente{
+    width: 5%;
+    margin-left: 61px;
+}
+
+.vente3-p2 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente3-p2 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente4-p2{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente4-p2 .affiche{
+    background-color: white;
+    width: 280px;
+    height: 290px;
+    padding-left: 10px;
+    
+}
+
+.vente4-p2 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente4-p2 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente4-p2 .P1{
+    font-size: 18px;
+    margin-bottom: -10px;
+}
+
+.vente4-p2 .P2{
+    font-size: 23px;
+}
+
+.vente4-p2 h3{
+    font-size: 30px;
+    margin-top: -5px;
+    margin-bottom: -54px;
+}
+
+.vente4-p2 .credit-vente{
+    width: 5%;
+    margin-left: 65px;
+}
+
+.vente4-p2 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente4-p2 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.vente5-p2{
+    display: flex;
+    background-color: rgba(221, 221, 221, 1);
+    width: 1379px;
+    min-height: 290px;
+    max-height: 290px;
+    margin-bottom: 80px;
+}
+
+.vente5-p2 .affiche{
+    background-color: white;
+    width: 250px;
+    height: 280px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.vente5-p2 .text{
+    margin-left: 10px;
+    width: 1069px;
+}
+
+.vente5-p2 h2{
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.vente5-p2 .P1{
+    font-size: 19px;
+    margin-bottom: -10px;
+}
+
+.vente5-p2 .P2{
+    font-size: 24px;
+}
+
+.vente5-p2 h3{
+    font-size: 30px;
+    margin-top: -15px;
+    margin-bottom: -54px;
+}
+
+.vente5-p2 .credit-vente{
+    width: 5%;
+    margin-left: 115px;
+}
+
+.vente5-p2 h4{
+    font-size: 25px;
+    margin-top: -50px;
+    margin-left: 750px;
+    margin-bottom: -45px;
+}
+
+.vente5-p2 .evaluation{
+    width: 15%;
+    margin-left: 900px;
+    
+}
+
+.body-noel{
+    background-color: rgba(90, 0, 0, 1);
+}
+
+.header-noel{ 
+    color: black;
+}
+
+.footer-noel{
+    
+    color: white;
+}
+
+.footer-noel .footerdiv nav ul{
+    list-style: none;
+}
+.footer-noel .footerdiv nav h2{
+    font-size: 30px;
+    max-width: 1000px;
+}
+
+.footer-noel .footerdiv nav p{
+    font-size: 25px;
+    max-width: 30ch;
+}
+
+.footer-noel .footerdiv{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 100px;
+    gap: 100px 100px;
+    max-width: 2250px;
+    width: 110%;
+    padding:40px;
+    margin: 0 auto;
+}
+
+.footer-noel .footerdiv .aide .audio img{
+    width: 40%;
+}
+
+.footer-noel .pied{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 500px;
+    width: 25%;
+    margin: 0 auto;
+    column-gap: 50px;
+    text-align: center;
+}
+
+.footer-noel .lg{
+    border-style: ridge;
+    font-size: 20px;
+    border-color: #03AECA;
+
+}
+
+.footer-noel .lg a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer-noel .terre{
+    border-style: ridge;
+    font-size: 20px;
+    border-color: #03AECA;
+
+}
+
+.footer-noel .imgpied{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    max-width: 500px;
+    width: 25%;
+    margin: 0 auto;
+
+}
+
+.footer-noel .footerhaut{
+    margin-bottom: 1px;
+    background: rgba(121, 0, 0, 1);
+    background: rgba(60, 0, 0, 1);
+
+}
+
+.footer-noel .footerbas{
+    background: rgba(121, 0, 0, 1);
+    background: rgba(60, 0, 0, 1);
+    
+    
+}
+
+.header-noel .search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 50px;
+    padding-left: 75px;
+    margin-right: -75px;
+}
+.header-noel .search-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    width: 500px;
+    outline: none; 
+}
+.header-noel .search-button {
+    background-color: #03AECA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.header-noel .search-button:hover {
+    background-color: #03AECA;
+}
+
+.header-noel .search-button img{
+    width: 30px;
+}
+
+.header-noel .logo{
+    width: 440px;
+    margin-top: 1px;
+    margin-bottom: -1px;
+}
+
+.header-noel .headerhaut{
+    background: #1f800b;
+    background: rgba(121, 0, 0, 1);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 100px;
+    gap: 100px 50px;
+    width: 110%;
+    padding:5px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+.header-noel .headerbas ul{
+    list-style: none;
+    background: rgba(60, 0, 0, 1);
+    display: flex;
+    padding-left: 100px;
+    margin: 0 auto;
+}
+
+.header-noel .headerbas li{
+    font-size: 20px;
+    margin-right: 10dvh;
+    
+}
+
+.header-noel .headerbas a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-noel .headerbas a:hover{
+    text-decoration: none;
+    color: rgb(151,234,43,1);
+}
+
+.header-noel.headerhaut h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.header-noel .headerhaut h2 a:hover{
+    text-decoration: none;
+    color: #00869C;
+}
+
+.header-noel .headerhaut h2 img{
+    width: 50px;
+}
+
+.header-noel .headerhaut h2{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+.header-noel .headerhaut .panier{
+    width: 75px;
+}
+
+.header-noel .headerhaut .co{
+    padding-left: 200px;
+}
+
+.main-noel{
+    font-family: sidek;
+}
+
+main .haut-noel{
+    font-family: kedis;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    background: rgba(60, 0, 0, 1);
+    border-radius: 15px;
+    margin-left: 800px;
+    margin-right: 800px;
+    margin-bottom: 100px;
+    padding: 10px;
+}
+
+main .haut-noel:hover{
+    padding: 20px;
+    margin-top: -10px;
+    margin-left: 790px;
+    margin-right: 790px;
+    margin-bottom: 90px;
+}
+
+.calendrier{
+    border-style:solid;
+    border-color: rgba(60, 0, 0, 1);
+    border-radius: 15px;
+    border-width: 10px;
+    display: grid;
+    grid-template-columns: repeat(8, 135px);
+    grid-template-rows: repeat(6, 135px);
+    margin: 290px;
+    margin-top: 150px;
+    padding: 25px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    gap: 25PX;
+}
+
+.calendrier .noel1{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 4;
+    grid-column: 2 / 2;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel2{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 2;
+    grid-column: 5 / 5;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel3{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 1;
+    grid-column: 7 / 9;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel4{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 4 / 4;
+    grid-column: 8 / 8;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel5{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 1;
+    grid-column: 3 / 3;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel6{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 6 / 6;
+    grid-column: 4 / 9;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel7{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 3 / 5;
+    grid-column: 4 / 4;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel8{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 4 /4;
+    grid-column: 1 / 4;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel9{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 1;
+    grid-column: 2 / 2;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel10{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 3 / 3;
+    grid-column: 5 / 7;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel11{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 5 / 7;
+    grid-column: 1 / 1;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel12{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 3 / 3;
+    grid-column: 3 / 3;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel13{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 3;
+    grid-column: 6 / 6;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel14{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 5 / 5;
+    grid-column: 8 / 8;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel15{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 3 / 3;
+    grid-column: 1 / 1;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+.calendrier .noel16{  
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%; 
+    grid-row: 4 / 4;
+    grid-column: 5 / 5;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel17{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 3;
+    grid-column: 1 / 1;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel18{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 5 / 7;
+    grid-column: 2 / 4;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel19{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 2;
+    grid-column: 3 / 5;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel20{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 4;
+    grid-column: 7 / 7;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel21{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 1 / 1;
+    grid-column: 4 / 6;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel22{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 2 / 4;
+    grid-column: 8 / 8;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel23{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 5 / 5;
+    grid-column: 4 / 6;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+.calendrier .noel24{
+    background-color: rgba(60, 0, 0, 1);
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    grid-row: 4 / 6;
+    grid-column: 6 / 8;
+    color: rgba(90, 0, 0, 1);
+    font-size: 100px;
+    margin-top: 15px;
+    border-radius: 15px;
+}
+
+@media (max-width : 510px){
+    .headerbas li{
+        margin-left: -65px;
+    }
+
+    .headerhaut h2 a{
+        color: white;
+    }
+
+    .headerhaut .panier{
+        opacity: 0;
+    }
+
+    .headerhaut h2 a{
+        margin-top: 127px;
+        font-size: 20px;
+        margin-left: -890px;
+    }
+
+    .headerhaut h2 a:hover{
+        color: rgb(151,234,43,1);
+    }
+
+    main .Acceuil{
+        display: block;
+        max-width: 500px;
+        margin: -73px;
+    }
+
+    .box1{
+        width: 400px;
+        font-size: 0;
+        height: 255px;
+        border-radius: 30px;
+        text-align: center;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+
+    main .box1 a{
+        font-size: 35px;
+        margin-left: 10px;
+        margin-right: 10px;
+        width: 300px;
+        margin-top: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    main .box1 a:hover{
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-bottom: 20px;    
+    }
+
+    .box2{
+        width: 400px;
+        font-size: 0;
+        border-radius: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 750px;
+        margin-top: 50px;
+    }
+
+    main .box2 a{
+        font-size: 50px;
+    }
+
+    main .box2 img{
+        width: 400px;
+        height: 350px;
+        margin-left: 0px;
+        border-radius: 30px;
+        margin-top: 0px;
+    }
+
+    .box3{
+        width: 400px;
+        font-size: 0;
+        border-radius: 30px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-top: 50px;
+        height: 500px;
+        margin-bottom: -100px;
+    }
+
+    main .box3 a{
+        font-size: 50px;
+    }
+
+    main .box3 img{
+        width: 430px;
+        margin-left: -15px;
+        margin-top: 10px;
+    }
+
+    main .haut{
+        margin-left: 70px;
+        margin-top: 200px;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 25px;
+        width: 200px; 
+    }
+
+    main .haut:hover{
+        margin-left: 60px;
+        margin-top: 190px;
+        padding-left: 85px;
+        padding-right: 85px;
+        font-size: 25px;
+    }
+
+    .footerdiv{
+        display: block;
+        margin-left: -20px;
+    }
+
+    .footerdiv nav h2{
+        font-size: 25px;
+    }
+
+    .footerdiv nav p{
+        font-size: 20px;
+    }
+
+    .footerdiv .contact{
+        margin-bottom: 75px;
+    }
+
+    .footerdiv .payement{
+        margin-bottom: 75px;
+    }
+
+    .footerdiv .aide .audio img{
+        width: 20%;
+        margin-top: -150px;
+        margin-left: 250px;
+    }
+
+    .lg{
+        padding: 10px;
+        margin-left: -100px;
+    }
+
+    .terre{
+        width: 150px;
+        padding: 10px;
+    }
+
+    .imgpied{
+        width: 65%;
+    }
+
+  main .logoco{
+        width: 80%;
+        margin-left: 50px;
+        margin-top: -200px;
+    }
+
+    main .search-connection{
+        margin-left: 70px;
+        margin-right: 70px;
+        width: 140px;
+    }
+
+    .search-connection h2{
+        font-size: 275%;
+        margin-left: -77px;
+    }
+
+
+    .search-connection button{
+        margin-left: 40px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .search-connection button:hover{
+        padding: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-top: -10px;
+        margin-right: 190px;
+        margin-left: 30px;
+        margin-bottom: 2px;
+    }
+
+    .rick-co{
+        margin-left: -80px;
+        width: 65%;
+        margin-top: 100px;
+    }
+
+    .morty-co{
+        margin-left: 310px;
+        width: 50%;
+    }
+
+    footer .sepa-co{
+        margin-top: 425px;
+    }
+
+    footer .credit-co{
+        font-size: 125%;
+        margin-top: 20px;
+    }
+
+
+    main .panier{
+        margin-left: 15px;
+        width: 450px;
+        display: block;
+        height: 700px;
+        margin-top: 70px;
+        text-align: center;
+    }
+
+    main .panier img{
+        width: 50%;
+        margin-top: 50px;
+        margin-bottom: -20px;
+        margin-left: -35px;
+        
+    }
+
+    main .panier h2{
+        margin-left: 50px;
+        text-align: center;
+    }
+
+    main .panier p{
+        margin-top: 0px;
+        text-align: center;
+        margin-bottom: 60px;
+
+    }
+
+    main .panier .retour{
+        font-size: 20px;
+        margin-left: 0px;
+        ;
+    }
+
+    main .panier .retour:hover{
+        padding: 30px;
+        padding-left: 80px;
+        padding-right: 90px;
+        margin-left: 0px;
+    }
+
+    .main-panier .block-panier{
+        margin-left: 15px;
+        width: 450px;
+        margin-bottom: 50px;
+    }
+
+    .main-page{
+        display: initial;
+    }
+
+    .gift-gauche{
+        opacity: 0;
+    }
+
+    .vente-droite{
+        margin-top: -2375px;
+        margin-left: 90px;
+    }
+
+    .vente1-p1{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+    }
+
+    .vente1-p1 .affiche{
+        width: 220px;
+        height: 220px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .vente1-p1 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente1-p1 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente1-p1 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente1-p1 .P2{
+        font-size: 17px;
+    }
+    
+    .vente1-p1 h3{
+        font-size: 20px;
+        margin-top: -50px;
+        margin-left: -180px;
+    }
+    
+    .vente1-p1 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -110px;
+    }
+    
+    .vente1-p1 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente1-p1 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente2-p1{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+    }
+
+    .vente2-p1 .affiche{
+        width: 200px;
+        height: 180px;
+        padding-top: 115px;
+        padding-bottom: 115px;
+    }
+
+    .vente2-p1 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente2-p1 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente2-p1 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente2-p1 .P2{
+        font-size: 17px;
+    }
+    
+    .vente2-p1 h3{
+        font-size: 20px;
+        margin-top: 50px;
+        margin-left: -170px;
+    }
+    
+    .vente2-p1 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -115px;
+    }
+    
+    .vente2-p1 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente2-p1 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente3-p1{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+        margin-top: 160px;
+    }
+
+    .vente3-p1 .affiche{
+        width: 160px;
+        height: 220px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .vente3-p1 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente3-p1 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente3-p1 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente3-p1 .P2{
+        font-size: 17px;
+    }
+    
+    .vente3-p1 h3{
+        font-size: 20px;
+        margin-top: -85px;
+        margin-left: -160px;
+    }
+    
+    .vente3-p1 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -130px;
+    }
+    
+    .vente3-p1 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente3-p1 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+    
+    .vente4-p1{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+        margin-top: 160px;
+    }
+
+    .vente4-p1 .affiche{
+        width: 210px;
+        height: 200px;
+        padding-top: 105px;
+        padding-bottom: 105px;
+    }
+
+    .vente4-p1 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente4-p1 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente4-p1 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente4-p1 .P2{
+        font-size: 16px;
+    }
+    
+    .vente4-p1 h3{
+        font-size: 20px;
+        margin-top: -90px;
+        margin-left: -180px;
+    }
+    
+    .vente4-p1 .credit-vente{
+        width: 20%;
+        margin-top: 18px;
+        margin-left: -110px;
+    }
+    
+    .vente4-p1 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente4-p1 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente5-p1{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 750px;
+        margin-top: 160px;
+    }
+
+    .vente5-p1 .affiche{
+        width: 180px;
+        height: 220px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .vente5-p1 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente5-p1 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente5-p1 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente5-p1 .P2{
+        font-size: 16px;
+    }
+    
+    .vente5-p1 h3{
+        font-size: 20px;
+        margin-top: -40px;
+        margin-left: -185px;
+    }
+    
+    .vente5-p1 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -110px;
+    }
+    
+    .vente5-p1 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente5-p1 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+    }
+
+    .selection-page{
+        width: 460px;
+        margin-left: 10px;
+        margin-top: -500px;
+        
+    }
+
+    .selection-page .b1{
+        opacity: 0;
+    }
+
+    .selection-page .b2{
+        opacity: 0;
+    }
+
+    .selection-page .precedent{
+        margin-right: -20px;
+    }
+
+    .selection-page .suivant{
+        margin-left: -0px;
+    }
+
+
+    main .haut-page{
+        margin-left: 70px;
+        margin-top: 100px;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 25px;
+        width: 200px; 
+    }
+
+    main .haut-page:hover{
+        margin-left: 60px;
+        margin-top: 90px;
+        padding-left: 85px;
+        padding-right: 85px;
+        font-size: 25px;
+    }
+
+    .vente1-p2{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+    }
+
+    .vente1-p2 .affiche{
+        width: 220px;
+        height: 220px;
+        padding-top: 75px;
+        padding-bottom: 115px;
+    }
+
+    .vente1-p2 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente1-p2 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente1-p2 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente1-p2 .P2{
+        font-size: 17px;
+    }
+    
+    .vente1-p2 h3{
+        font-size: 20px;
+        margin-top: -35px;
+        margin-left: -170px;
+    }
+    
+    .vente1-p2 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -125px;
+    }
+    
+    .vente1-p2 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente1-p2 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente2-p2{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+    }
+
+    .vente2-p2 .affiche{
+        width: 220px;
+        height: 150px;
+        padding-top: 30px;
+        padding-bottom: 90px;
+    }
+
+    .vente2-p2 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente2-p2 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente2-p2 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente2-p2 .P2{
+        font-size: 16px;
+    }
+    
+    .vente2-p2 h3{
+        font-size: 20px;
+        margin-top: -85px;
+        margin-left: -170px;
+    }
+    
+    .vente2-p2 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -115px;
+    }
+    
+    .vente2-p2 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente2-p2 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente3-p2{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+        margin-top: 160px;
+    }
+
+    .vente3-p2 .affiche{
+        width: 170px;
+        height: 190px;
+        padding-top: 95px;
+        padding-bottom: 125px;
+    }
+
+    .vente3-p2 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente3-p2 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente3-p2 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente3-p2 .P2{
+        font-size: 16px;
+    }
+    
+    .vente3-p2 h3{
+        font-size: 20px;
+        margin-top: -50px;
+        margin-left: -165px;
+    }
+    
+    .vente3-p2 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -125px;
+    }
+    
+    .vente3-p2 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente3-p2 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+    
+    .vente4-p2{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 50px;
+        margin-top: 160px;
+    }
+
+    .vente4-p2 .affiche{
+        width: 210px;
+        height: 220px;
+        padding-top: 60px;
+        padding-bottom: 130px;
+    }
+
+    .vente4-p2 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente4-p2 h2{
+        font-size: 20px;
+        margin-bottom: -5px;
+    }
+    
+    .vente4-p2 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente4-p2 .P2{
+        font-size: 15px;
+    }
+    
+    .vente4-p2 h3{
+        font-size: 20px;
+        margin-top: -60px;
+        margin-left: -165px;
+    }
+    
+    .vente4-p2 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -120px;
+    }
+    
+    .vente4-p2 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente4-p2 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+        
+    }
+
+    .vente5-p2{
+        width: 450px;
+        height: 400px;
+        margin-left: -75px;
+        background-color: initial;
+        margin-bottom: 750px;
+        margin-top: 160px;
+    }
+
+    .vente5-p2 .affiche{
+        width: 180px;
+        height: 220px;
+        padding-top: 95px;
+        padding-bottom: 95px;
+    }
+
+    .vente5-p2 .text{
+        width: 200px;
+        height: 410px;
+        margin-left: 10px;
+        
+        background-color: rgba(217, 217, 217, 1);
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .vente5-p2 h2{
+        font-size: 19px;
+        margin-bottom: -5px;
+    }
+    
+    .vente5-p2 .P1{
+        font-size: 12px;
+        margin-bottom: -15px;
+    }
+    
+    .vente5-p2 .P2{
+        font-size: 15px;
+    }
+    
+    .vente5-p2 h3{
+        font-size: 20px;
+        margin-top: -90px;
+        margin-left: -185px;
+    }
+    
+    .vente5-p2 .credit-vente{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: -105px;
+    }
+    
+    .vente5-p2 h4{
+        font-size: 15px;
+        margin-top: -5px;
+        margin-left: -210px;
+        margin-bottom: -25px;
+    }
+    
+    .vente5-p2 .evaluation{
+        width: 40%;
+        margin-left: -130px;
+    }
+
+    .header-noel h2 a{
+        color: white;
+    }
+
+    .header-noel .headerhaut h2 a:hover{
+        color: rgb(151,234,43,1);
+    }
+
+    .calendrier{
+        border-style: none;
+        margin-left: 20px;
+        display: grid;
+        grid-template-columns: none;
+        grid-template-rows: none;
+        margin-bottom: -200px;
+        margin-top: 10px;
+    }
+
+    .calendrier .noel1{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 1 / 1;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel2{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 1 / 1;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel3{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 1 / 1;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: 15px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel4{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 2 / 2;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel5{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 2 / 2;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel6{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 2 / 2;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel7{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 3 / 3;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel8{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 3 /3;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel9{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 3 / 3;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel10{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 4 / 4;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel11{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 4 / 4;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel12{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 4 / 4;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel13{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 5 / 5;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel14{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 5 / 5;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel15{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 5 / 5;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    .calendrier .noel16{  
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px; 
+        grid-row: 6 / 6;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel17{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 6 / 6;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel18{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 6 / 6;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel19{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 7 / 7;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel20{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 7 / 7;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel21{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 7 / 7;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel22{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 8 / 8;
+        grid-column: 1 / 1;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel23{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 8 / 8;
+        grid-column: 2 / 2;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+    
+    .calendrier .noel24{
+        background-color: rgba(60, 0, 0, 1);
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 135px;
+        grid-row: 8 / 8;
+        grid-column: 3 / 3;
+        color: rgba(90, 0, 0, 1);
+        font-size: 100px;
+        margin-top: -100px;
+        border-radius: 15px;
+    }
+
+    main .haut-noel{
+        margin-left: 67px;
+        margin-top: 200px;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 25px;
+        width: 200px; 
+    }
+
+    main .haut-noel:hover{
+        margin-left: 57px;
+        margin-top: 190px;
+        padding-left: 85px;
+        padding-right: 85px;
+        font-size: 25px;
+    }
+
+    .footer-noel .footerdiv{
+        display: block;
+        margin-left: -20px;
+    }
+
+    .footer-noel .footerdiv nav h2{
+        font-size: 25px;
+    }
+
+    .footer-noel .footerdiv nav p{
+        font-size: 20px;
+    }
+
+    .footer-noel .footerdiv .contact{
+        margin-bottom: 75px;
+    }
+
+    .footer-noel .footerdiv .payement{
+        margin-bottom: 75px;
+    }
+
+    .footer-noel .footerdiv .aide .audio img{
+        width: 20%;
+        margin-top: -150px;
+        margin-left: 250px;
+    }
+
+    .footer-noel .lg{
+        padding: 10px;
+        margin-left: -100px;
+    }
+
+    .footer-noel .terre{
+        width: 150px;
+        padding: 10px;
+    }
+
+    .footer-noel .imgpied{
+        width: 65%;
+    }
+    
+}
+
